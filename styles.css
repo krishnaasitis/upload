@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+img#img_align {
+float: right;
+right: 0px;
+top: 73px;
+position: absolute;
+}
+#time1{
+font-family: 'Source Sans Pro',sans-serif;
+font-weight: bold;
+font-size: 1.2rem;
+color: #4472B9;
+line-height: 3em;
+
+}
+#main{
+position: relative;
+}
+time{
+color: #ccc;
+font-size: 0.75rem;
+text-transform: uppercase;
+letter-spacing: 0.1rem;
+}
+cite{
+font-size: 1.3em;
+line-height: 1;
+font-style: italic;
+color: #72c4ea !important;
+}
+h2{
+text-transform: uppercase;
+letter-spacing: .051em;
+/*font: normal 1.5em/1.1 OFL Sorts Mill Goudy, Georgia, serif;*/
+font-family: 'Russo One', sans-serif;
+/*font-family: 'LobsterTwoBoldItalic';*/
+font-size: 1.3em;
+color: #676767;
+}
+h2:hover{
+/*color: #555555;*/
+color:#27CCC0;
+cursor:pointer;
+}
+article{
+text-rendering: optimizeLegibility;
+font-family: Andalus;
+font-style: normal;
+font-weight: 400;
+/*color: #07B3D3;*/
+font-size: 1.2em;
+line-height: 1.2em;
+}
+::selection {
+background: #4e7687;
+color: #fff;
+}
+#table1{
+/*top: 88px;*/
+position: absolute;
+/*margin-top: 31px;*/
+margin-top: 91px;
+padding-left: 1em;
+margin-left: auto;
+margin-right: auto;
+}
+#create{
+padding-left: 1.5em;
+}
+#plus-sign {
+background:white;
+width:33px;
+height:100px;
+position:relative;
+margin-left:33px;
+left: 1.5em;
+}
+#plus-sign:before {
+background:white;
+content:"";
+width:100px;
+height:33px;
+position:absolute;
+top:33px;
+left:-33px;
+}
+
+h3{
+/*background: #4e7687;*/
+background:#47c7fa;
+color: #fff;
+padding-left:0.5em;
+font: bold large Arial,sans-serif;
+text-decoration: none;
+}
+#logo{
+/* top: 1em; */
+/*position: absolute;*/
+}
+#footer{
+height: 110px;
+width: 100%;
+padding-bottom: -10px; 
+clear: both;
+text-align: center;
+padding-top: 15px;
+color: #FFFFFF;
+}
+#dialog{
+position: relative;
+/*margin-top: 88px;*/
+}
+article{
+padding-left: 1em;
+padding-right: 1em;
+width: 75%;
+}
+#center-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+background-color: rgb(250, 255, 189);
+}
+textarea{
+background-color: rgb(250, 255, 189);
+}
+h4{
+right: 1em;
+position: absolute;
+top:0;
+color:#4e7687;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /*background-color: #b0e0e6;*/
+    margin-top: 6em;
+/* margin-right: 15%; */
+   /* background-color: #005A9C;*/
+  background-color: rgba(255,255,255,0.6);
+    color: #000099;
+    font-weight: bold;
+    padding: 12px;
+/* margin-left: 0px; */
+   border-radius: 6px;
+   /*box-shadow: 4px 4px 4px #888;*/
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+height: 200px;
+}
+#loginform{
+margin-top: 1.5em;
+}
+.centerh1 {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+background-color: #b0e0e6;
+/* padding: 2em; */
+text-align: center;
+/* position: absolute; */
+}
+.center1{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+/*background-color: #b0e0e6;*/
+color: #7F7F7F;
+/*height: 137px;*/
+}
+#wrapper{
+/*height: 12em;*/
+height: 2em;
+padding-top: 1em;
+}
+/*
+a:focus {
+color: #d9d9d9;
+}
+*/
+span.location {
+color: #009999;
+}
